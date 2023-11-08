@@ -9,16 +9,9 @@
     //Entrada
 
     //Processamento 
-    function cumprimentar(nome) {
-
-        const mensagem = `Bom dia, ${nome}!`;
-
-        alert(mensagem);
-    }
+    function cumprimentar(nome) { return `Bom dia, ${nome}!`;}
     const nomeUsuario = prompt("Qual é o seu nome?");
-
-    cumprimentar(nomeUsuario);
-
+    let nome = cumprimentar(nomeUsuario);
     //Saída
-    alert(`Bom dia ${nome}`);
+    alert(`${nome}`);
 </script>

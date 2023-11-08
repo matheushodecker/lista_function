@@ -12,7 +12,21 @@
 
     //Processamento
 
+    function area(raio) { 
+        return pi * (raio * raio);
+    }
+
+    function perimetro(raio) {
+         return 2 * pi * raio;
+    }
+
+    let pi = 3.14;
+
+    const raio = Number(prompt("informe o tamanho do raio do circulo em cm"));
+
+    resultado = `a area do circulo em cm e:${area(raio)}; \n e o perimetro do circulo em e: ${perimetro(raio)};`;
 
     //Saída
 
+    alert(resultado);
 </script>

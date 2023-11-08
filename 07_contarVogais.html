@@ -7,11 +7,16 @@
     */
 
     //Entrada
-
+    
+    let palavra = prompt(`Informe uma palavra:`).trim().toLowerCase();
 
     //Processamento
 
+    function contaVogais(texto) {
+        return texto.filter(letra => letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u').length;
+    }
 
     //Saída
 
+    alert(contaVogais(Array.from(palavra)))
 </script>

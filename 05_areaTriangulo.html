@@ -10,7 +10,15 @@
 
     //Processamento
 
+    function areaTriangulo(base, altura) {
+        return (base * altura) / 2;
+    }
 
+    const b = Number(prompt("informe o tamanho da base em centimetros"));
+
+    const h = Number(prompt("informe o tamanho da altura em centimetros"));
+
+    let resultado = areaTriangulo(b, h);
     //Saída
-
+    alert(resultado);
 </script>

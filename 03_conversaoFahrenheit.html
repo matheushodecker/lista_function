@@ -9,16 +9,16 @@
 
 
     //Processamento
-    function calculo(Fahrenheit) {
 
-        const F = (9 * C + 160) / 5;
-
-        alert(`${C}° convertido para Fahreheit ${F}`);
+    function calculo(C) { 
+        return (9 * C + 160) / 5; 
     }
+
     const C = prompt("informe quanto graus esta atualmente");
 
-    calculo(C);
+    let resultado = calculo(C);
 
     //Saída
 
+    alert(`${C}° convertido para Fahreheit ${resultado}`);
 </script>

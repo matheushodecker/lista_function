@@ -10,7 +10,15 @@
 
     //Processamento
 
+    function calculo(F) {
+        return (F - 32) * 5 / 9
+    }
+
+    const F = prompt("informe quanto graus Fahreheit esta atualmente");
+
+    let resultado = calculo(F);
 
     //Saída
-
+    
+    alert(`${F}° Fahreheit convertido para celsius ${resultado}`);
 </script>
